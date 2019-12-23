@@ -57,9 +57,10 @@ body > .section:visited {
 }
 
 .column_image {
-    width: 30%;
+    width: 50%;
     margin: auto;
     padding: auto;
+    vertical-align: middle;
 }
 
 .social {
