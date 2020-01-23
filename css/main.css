@@ -15,7 +15,7 @@ body {
 /* pranavsb */
 #main_logo {
     color: black;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
@@ -31,17 +31,22 @@ body {
 
 
 .social {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
-    /* border-radius: 50%; */
     display: block;
     float: right;
 }
 
 .social:hover, .social:active {
     opacity: 0.7;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    text-decoration: underline;
 }
 
 /* Navbar section */
@@ -375,14 +380,11 @@ body {
     background-color: #111;
 }
 
-
-
-
-
-
 .myH2 {
 	text-align:center;
-	font-size: 4rem;
+    font-size: 4rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .myP {
 	text-align: justify;
