@@ -4,52 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Pranav's Place</title>
 </head>
 <body>
-    <a href="/"><span id="main_element">Pranav&apos;s Place</span></a>
-    <!-- todo <span class="banner_start">Projects</span> -->
-    <a class="section" href="projects.html">Projects</a>
-    <a class="section" href="resume.html">Resume</a>
-    <a class="section" href="photos.html">Photography</a>
-    <a class="section" href="writing.html">Writing</a>
-    <div class="main_text">
-        Hi there! I'm Pranav Bijapur, nice to online&ndash;meet you.
-        <br/><br/>
-        I work as a software engineer in Bangalore at a travel technology MNC. <br><br>
-        I enjoy puns, parentheses and poetry. <br><br>
-        I &lang; &sol; &rangle; in Python and Java.
-
-        <br/><br/>
-    </div>
     
-    <div class="social_media">
-        Find me on the web:
-        <div>
-            <img class="column_image" src="images/me_web.png" alt="Illustration with the letters M-E on a representation of a network.">
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#" id="main_logo">PRANAV'S PLACE</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="projects.html" class="main_tab">Projects</a></li>
+                    <li><a href="pranavsb_resume_Jan_2020.pdf" class="main_tab">Resume</a></li>
+                    <li><a href="photos.html" class="main_tab">Photography</a></li>
+                    <li><a href="writing.html" class="main_tab">Writing</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
         </div>
-        <div>    
-            <a class="social" href="https://www.facebook.com/pranavsbijapur">
-                <img alt="Pranav Bijapur Facebook profile" src="images/facebook.svg" width="100" height="100">
-            </a>
-            <a class="social" href="https://www.github.com/pranavsb">
-                <img id="github" alt="Pranav Bijapur GitHub profile" src="images/github.svg" width="100" height="100">
-            </a>
-            <a class="social" href="https://www.linkedin.com/in/pranav-bijapur">
-                <img alt="Pranav Bijapur LinkedIn profile" src="images/linkedin.svg" width="100" height="100">
-            </a>
-            <a class="social" href="https://www.flickr.com/photos/166860337@N06/">
-                <img alt="Pranav Bijapur Flickr profile" src="images/flickr.svg" width="100" height="100">
-            </a>
-        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+    <div style="height: 1000px">
+			<h2 style="margin-top: 100px;" class="myH2">HEY THERE!</h2>
+			<p class="myP">This is a responsive fixed navbar animated on scroll</p>
+			<p class="myP">I HOPE YOU FIND THIS USEFULL</p>
+			<p class="myP">Albi</p>
+				<p class="myP">
+				
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
+			</p>
     </div>
-    <div>
-        <img class="profile_photo" src="images/profile_photo.png" alt="A photo of Pranav Bijapur">
-    </div>
-    <div>
-        <img class="banner_image" src="images/sedona_oct21.jpg" alt="Sedona, Arizona. Landscape of rocks and sky.">
-    </div>
+
+<!-- Jquery needed -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+       $(window).scroll(function() {
+    if ($(document).scrollTop() > 50) {
+        $('.nav').addClass('affix');
+        $('.main_tab').css('color', '#d9ddff');
+        $('#main_logo').css('color', '#d9ddff');
+    } else {
+        $('.nav').removeClass('affix');
+        $('.main_tab').css('color', 'black');
+        $('#main_logo').css('color', 'black');
+    }
+    });
+    </script>
+
+<script src="main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
