@@ -67,25 +67,16 @@ body {
 	background-size:cover;
 }
 
-/* .photos_page {
-    margin-top: 40vh;
-} */
+/* pranavsb Writing Page */
 
-/* .photos_page {
+.writing_banner {
     width: 100%;
-    margin-top: 20vh;
-    /* background-position: center top; */
-    /* background-size:cover; */
-    /* position: absolute; */
-/* } */ 
-/* 
-.home {
-    width: 100%;
-    height: 100vh;
-    background-image: url(../images/salzburg_sunrise.jpg);
+    height: 95vh;
+    background-image: url(../images/projects/writing_sphere_of_influence.jpg);
     background-position: center top;
 	background-size:cover;
-} */
+}
+
 
 /* pranavsb Projects Page */
 
